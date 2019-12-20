@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LOG IN | REGISTRATION</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<div id="login">
+		<h1>hackslash</h1><br>
+		<p>Students' Developers Club<br>
+		National Institue of Technology, Patna</p><br><br><br><br>
+		<form action="www.google.com">
+			<input type="email" name="email" placeholder="Email Address" required class="lgnip"
+			style="::placeholder { color: white;}
+                   :-ms-input-placeholder { color: white;}
+                   ::-ms-input-placeholder {color: white;}}"><br><br>
+			<input type="password" name="password" placeholder="Password" required class="lgnip"><br><br>
+			<button type="submit" id="signin"> <b>Sign In</b></button><br><br><br>
+		</form>
+		<h3 class="or">or</h3>
+		<form>
+			<button onclick="redirect1.html" class="redctlgn"><img src="GitHub.png"> Sign in with GitHub</button><br><br>
+			<button onclick="redirect2.html" class="redctlgn"><img src="search.png"> Sign in with Google</button><br><br><br><br><br>
+		</form>
+	</div>
+	<div id="registration">
+		<h1 style="font-family: arial black" >Create an account</h1><br>
+		<h2> Just a few basic details</h2><br><br><br>
+		<form action="#">
+			<input type="fname" name="fname" placeholder="First Name" class="reginp1" required>
+			<input type="lname" name="lname" placeholder="Last Name" class="reginp1" required><br><br>
+			<input type="email" name="email" placeholder="Email Address" class="reginp2" required><br><br>
+			<input type="password" name="password" placeholder="Choose a Password" class="reginp2" required ><br><br>
+			<input type="password" name="re-password" placeholder="Re-enter password" class="reginp2" required><br><br>
+			<input type="id" name="GitHub id" placeholder="GitHub ID (Optional)" class="reginp2"><br><br>
+			<button type="submit" id="reg">Create account</button><br><br>
+		</form>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+#login {
+	width: 30%;
+	height: 100%;
+	background: #4db8ff;
+	text-align: center;
+	color: white;
+}
+h1 {
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: -20px;
+	margin-left: 60px;
+	text-align: left;
+	font-family: sans-serif;
+}
+p {
+	margin-top: 0px;
+	margin-left: 60px;
+	font-family: monospace;
+	text-align: left;
+	font-size: 12px;
+}
+.lgnip {
+	width: 75%;
+	height: 45px;
+	background: none;
+	border: none;
+	color: white;
+	border-bottom: 2px solid white;
+
+}
+div {
+	float: left;
+	position: relative;
+}
+#signin {
+	border-radius: 30px;
+	color: #4db8ff;
+	border: none;
+	background: white;
+	width: 75%;
+	height: 100%;
+	padding: 10px;
+	font-size: 15px;
+}
+h2 {
+	font-size: 30px;
+	margin-top: 0px;
+	margin-left: 60px;
+	font-family: sans-serif;
+}
+h3 {
+	font-size: 30px;
+	margin-left: -20px;
+	font-family:  Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
+}
+.redctlgn {
+	width: 75%;
+	height: 100%;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 10px;
+	background: white;
+	border: none;
+	box-shadow: 20%;
+}
+#registration {
+	width: 60%;
+	height: 100%;
+	text-align: left;
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-position: relative;
+	margin-left: 60px;
+}
+.reginp1 {
+	width: 22.5%;
+	height: 45px;
+	border:none;
+	border-bottom: 2px solid black;
+	margin: 3px;
+	margin-left: 60px;
+	margin-right: -40px;
+}
+.reginp2 {
+	width: 48%;
+	height: 45px;
+	border:none;
+	border-bottom: 2px solid black;
+	margin-left: 60px;
+}
+#reg {
+	border-radius: 30px;
+	background: #002b80;
+	color: white;
+	height: 40px;
+	width: 20%;
+	margin-left: 290px;
+}
+img {
+	height: 16px;
+	width: 16px;
+}
+input {
+	background : none;
+	font-size: 20px;
+}
